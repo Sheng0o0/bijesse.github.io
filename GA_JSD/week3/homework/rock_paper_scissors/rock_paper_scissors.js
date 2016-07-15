@@ -31,14 +31,40 @@ function startGame(userChoice) {
 // Use this randomly generated number to pull a value from the array (eg myArray[ranomNum])
 // Ensure you return this value!
 function generateCPUChoice () {
-}
+	var choice = ["rock", "paper", "scissors"];
+	var num = Math.floor(Math.random()*3);
+		return choice[num];
+	}
+
 
 // 2. The function compare takes two strings (userChoice and cpuChoice) that represent the user's and cpu's respective choices: 'rock', 'paper', or 'scissors'
 // This function should compare the two choices, and return a winner
 // For example, if userChoice === 'rock' and cpuChoice === 'scissors', then 'user' should be returned
 // Hint: use if/else/ele if logic to compare the values and return a winner
 function compare(userChoice, cpuChoice) {
+	if(userChoice === 'rock' && cpuChoice === 'scissors'){
+		return "user";
+	}
+	else if(userChoice === 'paper' && cpuChoice === 'scissors'){
+		return "CPU";
+	}
+	else if(userChoice === cpuChoice){
+		return "Tie game! No one";
+	}
+	else if(userChoice === 'rock' && cpuChoice === 'paper'){
+		return "CPU";
+	}
+	else if(userChoice === 'paper' && cpuChoice === 'rock'){
+		return "CPU";
+	}	
+	else if(userChoice === 'scissors' && cpuChoice === 'rock'){
+		return "CPU";
+	}	
+	else{
+		return "user";
+	}	
 }
+
 
 
 
