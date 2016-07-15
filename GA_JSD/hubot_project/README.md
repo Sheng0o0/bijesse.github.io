@@ -27,7 +27,8 @@ TommyTalks can also hear the following commands:
       
 TommyTalks will also listen for curse words and will scould you for your foul language.
  
- === 
+***
+ 
  
 TommyTalks will respond to the following commands if it is at mentioned first:
 
