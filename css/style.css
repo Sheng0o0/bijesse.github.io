@@ -85,4 +85,9 @@ a{
     text-align: left;
 
   }
+  #icon{
+    height: 150px;
+    width:150px;
+  }
+
 }
