@@ -35,6 +35,10 @@ a{
   border-top: 1px solid #e5e5e5;
 }
 
+.project-btn {
+  width: 50%;
+}
+
 /* Customize container */
 @media (min-width: 768px) {
   .container {
