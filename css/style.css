@@ -2,6 +2,8 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-image: url('http://eskipaper.com/images/anime-city-wallpaper-1.jpg');
+  background-size: cover;
 }
 
 a{
@@ -93,5 +95,9 @@ a{
     height: 150px;
     width:150px;
   }
+
+#title{
+  color:#66ffff;
+}
 
 }
